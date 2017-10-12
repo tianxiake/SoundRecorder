@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SoundRecorder.iml" filepath="$PROJECT_DIR$/SoundRecorder.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apptest/apptest.iml" filepath="$PROJECT_DIR$/apptest/apptest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mockrecorder/mockrecorder.iml" filepath="$PROJECT_DIR$/mockrecorder/mockrecorder.iml" />
     </modules>
   </component>
 </project>

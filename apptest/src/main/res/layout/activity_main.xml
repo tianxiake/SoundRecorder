@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nebulaera.apptest.MainActivity">
+
+    <fragment
+        android:name="com.nebulaera.apptest.fragments.TitleFragment"
+        android:id="@+id/fragment_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <fragment
+        android:id="@+id/fragment_content"
+        android:name="com.nebulaera.apptest.fragments.ContentFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

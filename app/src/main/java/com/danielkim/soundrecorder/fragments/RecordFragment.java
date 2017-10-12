@@ -58,7 +58,6 @@ public class RecordFragment extends Fragment {
         Bundle b = new Bundle();
         b.putInt(ARG_POSITION, position);
         f.setArguments(b);
-
         return f;
     }
 
